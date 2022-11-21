@@ -5,7 +5,9 @@
 // -3 -> нет
 // 7 -> нет
 
-int a = 7;
+Console.WriteLine("Введите ваше число");
+
+int a = Convert.ToInt16(Console.ReadLine());
 if (a % 2 == 0)
 {
     Console.WriteLine("Число чётное");
