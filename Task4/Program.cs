@@ -4,3 +4,18 @@
 // 2, 3, 7 -> 7
 // 44 5 78 -> 78
 // 22 3 9 -> 22
+
+int a = 2;
+int b = 3;
+int c = 7;
+
+int max = a;
+
+if (a < b) max = b;
+if (b < c) max = c;
+if (c < a) max = a;
+
+Console.WriteLine("Max = ");
+Console.WriteLine(max);
+
+
