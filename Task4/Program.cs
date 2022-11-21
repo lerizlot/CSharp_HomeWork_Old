@@ -5,9 +5,12 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-int a = 2;
-int b = 3;
-int c = 7;
+Console.WriteLine("Введите число a");
+int a = Convert.ToInt16(Console.ReadLine());
+Console.WriteLine("Введите число b");
+int b = Convert.ToInt16(Console.ReadLine());
+Console.WriteLine("Введите число c");
+int c = Convert.ToInt16(Console.ReadLine());
 
 int max = a;
 
