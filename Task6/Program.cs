@@ -4,3 +4,11 @@
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
+
+int a = 7;
+if (a % 2 == 0)
+{
+    Console.WriteLine("Число чётное");
+} else {
+    Console.WriteLine("Число нечётное");
+}
