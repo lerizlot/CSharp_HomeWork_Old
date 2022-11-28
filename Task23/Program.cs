@@ -7,4 +7,5 @@ Console.WriteLine("Введите ваше число");
 int N = Convert.ToInt16(Console.ReadLine());
 
 for (int i = 1; i <= N; i++)
-    Console.WriteLine(i*i*i);
+    //Console.WriteLine(i*i*i);
+    Console.WriteLine(Math.Pow(i, 3)); // это решение элегантнее :)
