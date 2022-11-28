@@ -6,5 +6,5 @@
 Console.WriteLine("Введите ваше число");
 int N = Convert.ToInt16(Console.ReadLine());
 
-for (int i = 1; i < N + 1; i++)
+for (int i = 1; i <= N; i++)
     Console.WriteLine(i*i*i);
